@@ -1,0 +1,34 @@
+{
+  "part_type": "gasket",
+  "spec": {
+    "outer_diameter": 88.0,
+    "inner_diameter": 42.0,
+    "thickness": 3.0,
+    "material": "PTFE"
+  },
+  "expected_volume_mm3": 14090.043051350222,
+  "volume_mm3": 14090.043051350222,
+  "bbox_mm": {
+    "x": 88.0,
+    "y": 88.0,
+    "z": 3.0
+  },
+  "solid_count": 1,
+  "cylindrical_face_count": 2,
+  "is_valid": true,
+  "material": "PTFE",
+  "request": {
+    "part_type": "gasket",
+    "outer_diameter": 88,
+    "inner_diameter": 42,
+    "thickness": 3,
+    "material": "PTFE"
+  },
+  "input_units": "mm",
+  "resolved_spec": {
+    "outer_diameter": 88.0,
+    "inner_diameter": 42.0,
+    "thickness": 3.0,
+    "material": "PTFE"
+  }
+}

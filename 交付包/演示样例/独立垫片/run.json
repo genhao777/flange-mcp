@@ -1,0 +1,76 @@
+{
+  "part_id": "fb81a138",
+  "part_type": "gasket",
+  "created_at_utc": "2026-10-28T01:24:08.701884+08:00",
+  "request": {
+    "part_type": "gasket",
+    "outer_diameter": 88,
+    "inner_diameter": 42,
+    "thickness": 3,
+    "material": "PTFE"
+  },
+  "input_units": "mm",
+  "resolved_spec": {
+    "outer_diameter": 88.0,
+    "inner_diameter": 42.0,
+    "thickness": 3.0,
+    "material": "PTFE"
+  },
+  "geometry": {
+    "volume_mm3": 14090.043051350222,
+    "expected_volume_mm3": 14090.043051350222,
+    "bbox_mm": {
+      "x": 88.0,
+      "y": 88.0,
+      "z": 3.0
+    },
+    "solid_count": 1,
+    "cylindrical_face_count": 2
+  },
+  "toolchain": {
+    "python": "3.12.14",
+    "service": "oilfield-flange"
+  },
+  "artifacts": {
+    "演示样例/独立垫片/check.json": {
+      "path": "演示样例/独立垫片/check.json",
+      "sha256": "99d67998bf1c1c2a1b83268d38dfcb3ffccedf874cac15a20658c84bebf357b4",
+      "bytes": 969
+    },
+    "演示样例/独立垫片/delivery_manifest.json": {
+      "path": "演示样例/独立垫片/delivery_manifest.json",
+      "sha256": "bca78e5fe1ea1d950cb0195d852412ca4c4a06b34e5bad35947a4849c348b1b6",
+      "bytes": 4187
+    },
+    "演示样例/独立垫片/gasket.dxf": {
+      "path": "演示样例/独立垫片/gasket.dxf",
+      "sha256": "14aea102fdf7f5645e83db7160ba3e099b1209dba89c7fc3c1606d6d4757208a",
+      "bytes": 23350
+    },
+    "演示样例/独立垫片/gasket.pdf": {
+      "path": "演示样例/独立垫片/gasket.pdf",
+      "sha256": "c514ec2aa41a611527c4e89f3d11ac8a0ebde66f1cabb01471f320f2b255983f",
+      "bytes": 16348
+    },
+    "演示样例/独立垫片/gasket.png": {
+      "path": "演示样例/独立垫片/gasket.png",
+      "sha256": "2af4766eed5a8f99c5858d91b8770d7c030b91e2f4c3a761db78ca736fa12a14",
+      "bytes": 34902
+    },
+    "演示样例/独立垫片/gasket.step": {
+      "path": "演示样例/独立垫片/gasket.step",
+      "sha256": "6fe2883f06a932830448d0b8718279c87536d222d60876b0f7acc0e3baabb973",
+      "bytes": 9269
+    },
+    "演示样例/独立垫片/gasket.stl": {
+      "path": "演示样例/独立垫片/gasket.stl",
+      "sha256": "2e3116917dc14265b5e970bdfdd89984a805cb77149d131d7570a57770f92a08",
+      "bytes": 50484
+    },
+    "演示样例/独立垫片/metadata.json": {
+      "path": "演示样例/独立垫片/metadata.json",
+      "sha256": "23544d45ec0be956c3465cd89e5f7fa583431d45fdf41adb9ceeaae50d024e72",
+      "bytes": 707
+    }
+  }
+}

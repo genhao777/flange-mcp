@@ -1,0 +1,352 @@
+{
+  "part_id": "c5df3c27",
+  "created_at_utc": "2026-10-28T01:23:57.687982+08:00",
+  "request": {
+    "od": 140,
+    "thickness": 18,
+    "center_hole": 45,
+    "bolt_count": 4,
+    "bolt_diameter": 12,
+    "pcd": 100,
+    "context": {
+      "line_id": "L-101",
+      "service": "pressure test",
+      "material": "A105"
+    }
+  },
+  "input_units": "mm",
+  "resolved_spec": {
+    "od": 140.0,
+    "thickness": 18.0,
+    "center_hole": 45.0,
+    "bolt_count": 4,
+    "bolt_diameter": 12.0,
+    "pcd": 100.0
+  },
+  "context": {
+    "line_id": "L-101",
+    "service": "pressure test",
+    "material": "A105"
+  },
+  "geometry": {
+    "volume_mm3": 240317.70083267806,
+    "bbox_mm": {
+      "x": 140.0,
+      "y": 140.0,
+      "z": 18.0
+    },
+    "solid_count": 1,
+    "cylindrical_face_count": 6,
+    "design_issues": []
+  },
+  "toolchain": {
+    "python": "3.12.14",
+    "service": "oilfield-flange"
+  },
+  "artifacts": {
+    "演示样例/单件法兰/check.json": {
+      "path": "演示样例/单件法兰/check.json",
+      "sha256": "c87a10e6256f14e1b474bf2f280be9394bc6ce30cdbf0bd472c19fa298c13d3f",
+      "bytes": 978
+    },
+    "演示样例/单件法兰/flange_render.png": {
+      "path": "演示样例/单件法兰/flange_render.png",
+      "sha256": "17704add2b4d58ab3d71c4a3abd0a37a8097ddb74dd64814c6eb4990c1476dea",
+      "bytes": 39144
+    },
+    "演示样例/单件法兰/flange_viewer.html": {
+      "path": "演示样例/单件法兰/flange_viewer.html",
+      "sha256": "01f6d93e0faf9598f498ae344dd207230b5aead6ed5f187482d1e6cd56789614",
+      "bytes": 169137
+    },
+    "演示样例/单件法兰/flange.dxf": {
+      "path": "演示样例/单件法兰/flange.dxf",
+      "sha256": "94e0369eee1bed0d9df4ea76b2672ee552728a6c0c4a820b6ebc5c998a649ece",
+      "bytes": 104103
+    },
+    "演示样例/单件法兰/flange.pdf": {
+      "path": "演示样例/单件法兰/flange.pdf",
+      "sha256": "90673d97461d9b44211146abaedcde5e4e585c2f39ebb0f60ce6332e2d012307",
+      "bytes": 31432
+    },
+    "演示样例/单件法兰/flange.png": {
+      "path": "演示样例/单件法兰/flange.png",
+      "sha256": "051b6c806fd96d0b43e5f85156c13b06c8e4c911f64bf7d7b633c5b5b3353767",
+      "bytes": 61731
+    },
+    "演示样例/单件法兰/flange.step": {
+      "path": "演示样例/单件法兰/flange.step",
+      "sha256": "7719fd7e2ade8713aba71265bb67265fb8abff77203e718b4641e8bfa1aefe3c",
+      "bytes": 24045
+    },
+    "演示样例/单件法兰/flange.stl": {
+      "path": "演示样例/单件法兰/flange.stl",
+      "sha256": "3498af760df25d887128ce019ec16de35afc1cb0dc0d3ceff958e77659db140a",
+      "bytes": 152084
+    },
+    "演示样例/单件法兰/metadata.json": {
+      "path": "演示样例/单件法兰/metadata.json",
+      "sha256": "ffa457b22cd73cdfee17dc42f771542a695a8de81480f6828ac6130a5a380317",
+      "bytes": 962
+    }
+  },
+  "check": {
+    "ok": true,
+    "spec_source": "stored",
+    "fault_type": null,
+    "warnings": []
+  },
+  "drawing": {
+    "formats": [
+      "assembly",
+      "viewer"
+    ],
+    "projection_source": "delivered STEP B-rep via build123d.Drawing",
+    "render_source": null,
+    "assembly_source": "parametric flange-pipe-flange composite from delivered STEP B-rep",
+    "assembly": {
+      "assembly_type": "flanged_spool",
+      "component_count": 5,
+      "components": [
+        "front_flange",
+        "front_gasket",
+        "pipe_spool",
+        "end_gasket",
+        "end_flange"
+      ],
+      "interface_count": 4,
+      "coaxial": true,
+      "end_faces_flush": true,
+      "bolt_pattern_aligned": true,
+      "bore_continuous": true,
+      "axis_continuous": true,
+      "geometry_checks": {
+        "coaxial": true,
+        "end_faces_flush": true,
+        "bolt_pattern_aligned": true,
+        "bore_continuous": true,
+        "axis_continuous": true,
+        "axis_offset_max_mm": 0.0,
+        "bore_clearance_mm": 5.0,
+        "flange_pipe_clearance_mm": 5.0,
+        "min_bore_mm": 32.0,
+        "gasket_clearance_mm": 2.0,
+        "interface_gap_max_mm": 0.0,
+        "pipe_dimensions_pass": true,
+        "measured_pipe_od_mm": 40.0,
+        "measured_pipe_id_mm": 32.0,
+        "measured_wall_thickness_mm": 4.0,
+        "measured_pipe_length_mm": 120.0,
+        "requested_wall_thickness_mm": 4.0,
+        "bolt_pattern": {
+          "front_centers_mm": [
+            [
+              -50.0,
+              0.0
+            ],
+            [
+              -0.0,
+              -50.0
+            ],
+            [
+              0.0,
+              50.0
+            ],
+            [
+              50.0,
+              0.0
+            ]
+          ],
+          "end_centers_mm": [
+            [
+              -50.0,
+              0.0
+            ],
+            [
+              -0.0,
+              -50.0
+            ],
+            [
+              0.0,
+              50.0
+            ],
+            [
+              50.0,
+              0.0
+            ]
+          ],
+          "measured_count": 4,
+          "measured_pcd_mm": 100.0,
+          "measured_diameter_mm": 12.0,
+          "count_pass": true,
+          "diameter_pass": true,
+          "pcd_pass": true,
+          "centers_match": true
+        },
+        "bore_segments": [
+          {
+            "component": "front_flange",
+            "inner_diameter_mm": 45.0,
+            "min_z": -9.0,
+            "max_z": 9.0,
+            "axis_offset_mm": 0.0
+          },
+          {
+            "component": "front_gasket",
+            "inner_diameter_mm": 42.0,
+            "min_z": 9.0,
+            "max_z": 12.0,
+            "axis_offset_mm": 0.0
+          },
+          {
+            "component": "pipe_spool",
+            "inner_diameter_mm": 32.0,
+            "min_z": 12.0,
+            "max_z": 132.0,
+            "axis_offset_mm": 0.0
+          },
+          {
+            "component": "end_gasket",
+            "inner_diameter_mm": 42.0,
+            "min_z": 132.0,
+            "max_z": 135.0,
+            "axis_offset_mm": 0.0
+          },
+          {
+            "component": "end_flange",
+            "inner_diameter_mm": 45.0,
+            "min_z": 135.0,
+            "max_z": 153.0,
+            "axis_offset_mm": 0.0
+          }
+        ],
+        "interfaces": [
+          {
+            "from": "front_flange",
+            "to": "front_gasket",
+            "gap_mm": 0.0,
+            "pass": true
+          },
+          {
+            "from": "front_gasket",
+            "to": "pipe_spool",
+            "gap_mm": 0.0,
+            "pass": true
+          },
+          {
+            "from": "pipe_spool",
+            "to": "end_gasket",
+            "gap_mm": 0.0,
+            "pass": true
+          },
+          {
+            "from": "end_gasket",
+            "to": "end_flange",
+            "gap_mm": 0.0,
+            "pass": true
+          }
+        ],
+        "components": [
+          {
+            "name": "front_flange",
+            "bbox_mm": {
+              "x": 140.0,
+              "y": 140.0,
+              "z": 18.0,
+              "min_z": -9.0,
+              "max_z": 9.0
+            },
+            "center_mm": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          {
+            "name": "front_gasket",
+            "bbox_mm": {
+              "x": 88.0,
+              "y": 88.0,
+              "z": 3.0,
+              "min_z": 9.0,
+              "max_z": 12.0
+            },
+            "center_mm": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 10.5
+            }
+          },
+          {
+            "name": "pipe_spool",
+            "bbox_mm": {
+              "x": 40.0,
+              "y": 40.0,
+              "z": 120.0,
+              "min_z": 12.0,
+              "max_z": 132.0
+            },
+            "center_mm": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 72.0
+            }
+          },
+          {
+            "name": "end_gasket",
+            "bbox_mm": {
+              "x": 88.0,
+              "y": 88.0,
+              "z": 3.0,
+              "min_z": 132.0,
+              "max_z": 135.0
+            },
+            "center_mm": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 133.5
+            }
+          },
+          {
+            "name": "end_flange",
+            "bbox_mm": {
+              "x": 140.0,
+              "y": 140.0,
+              "z": 18.0,
+              "min_z": 135.0,
+              "max_z": 153.0
+            },
+            "center_mm": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 144.0
+            }
+          }
+        ]
+      },
+      "pipe_od": 40.0,
+      "pipe_id": 32.0,
+      "pipe_length": 120.0,
+      "include_end_flange": true,
+      "include_gaskets": true,
+      "gasket": {
+        "outer_diameter": 88.0,
+        "inner_diameter": 42.0,
+        "thickness": 3.0,
+        "material": "PTFE"
+      },
+      "flange_spec": {
+        "od": 140.0,
+        "thickness": 18.0,
+        "center_hole": 45.0,
+        "bolt_count": 4,
+        "bolt_diameter": 12.0,
+        "pcd": 100.0
+      }
+    }
+  },
+  "delivery_manifest": {
+    "path": "../法兰短节/delivery_manifest.json",
+    "schema_version": "1.0"
+  }
+}

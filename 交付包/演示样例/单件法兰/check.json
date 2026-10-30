@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "spec": {
+    "od": 140.0,
+    "thickness": 18.0,
+    "center_hole": 45.0,
+    "bolt_count": 4,
+    "bolt_diameter": 12.0,
+    "pcd": 100.0
+  },
+  "spec_source": "stored",
+  "items": [
+    {
+      "name": "volume_mm3",
+      "expected": 240317.700832678,
+      "actual": 240317.70083267806,
+      "pass": true
+    },
+    {
+      "name": "bbox_mm",
+      "expected": {
+        "x": 140.0,
+        "y": 140.0,
+        "z": 18.0
+      },
+      "actual": {
+        "x": 140.0,
+        "y": 140.0,
+        "z": 18.0
+      },
+      "pass": true
+    },
+    {
+      "name": "solid_count",
+      "expected": 1,
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "name": "cylindrical_face_count",
+      "expected": 6,
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "name": "is_valid",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    }
+  ],
+  "fault_type": null,
+  "warnings": []
+}
